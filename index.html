@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./css/mdui.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/mdui.min.js"></script>
+		<title></title>
+	</head>
+	<body class="mdui-appbar-with-toolbar mdui-theme-primary-yellow mdui-drawer-body-left">
+		<div class="mdui-appbar-fixed mdui-toolbar mdui-color-theme">
+			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons" mdui-drawer="{target: '#drawer', swipe: true}">menu</i>
+			</a>
+			<span class="mdui-typo-title">梧桐落叶 Wtdown</span>
+			<div class="mdui-toolbar-spacer"></div>
+			<!--			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons">more_vert</i>
+			</a>-->
+		</div>
+		<div class="mdui-drawer" id="drawer">
+			<ul class="mdui-list">
+				<li class="mdui-subheader">主板块</li>
+				<li class="mdui-list-item mdui-ripple   mdui-list-item-active" onClick="openmainpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+					<div class="mdui-list-item-content">首页</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple" onClick="openpeoplepage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">people</i>
+					<div class="mdui-list-item-content">团队</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple " onClick="openprojectpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">subject</i>
+					<div class="mdui-list-item-content">项目</div>
+				</li>
+			</ul>
+		</div>
+		<div class="mdui-container">
+			<div class="showimgbox">
+				<img src="./img/1GaDF.png">
+			</div>
+			<div class="showbox">
+				梧桐落叶 Wtdown
+			</div>
+			<ul class="mdui-list">
+
+			</ul>
+			<div class="mdui-row showgoodbox">
+				<div class="mdui-col-xs-4">
+					<li class="mdui-list-item mdui-ripple">
+						<div class="mdui-list-item-content">
+							<div class="mdui-list-item-title mdui-list-item-one-line">智造不同</div>
+							<div class="mdui-list-item-text mdui-list-item-two-line">科技与时俱进，代码智造不同！</div>
+						</div>
+					</li>
+				</div>
+				<div class="mdui-col-xs-4">
+					<li class="mdui-list-item mdui-ripple">
+						<div class="mdui-list-item-content">
+							<div class="mdui-list-item-title mdui-list-item-one-line">趣在其中</div>
+							<div class="mdui-list-item-text mdui-list-item-two-line">生活百般变化，乐趣总在其中！</div>
+						</div>
+					</li>
+				</div>
+				<div class="mdui-col-xs-4">
+					<li class="mdui-list-item mdui-ripple">
+						<div class="mdui-list-item-content">
+							<div class="mdui-list-item-title mdui-list-item-one-line">无限可用</div>
+							<div class="mdui-list-item-text mdui-list-item-two-line">程序创造未来，产品无限可用</div>
+						</div>
+					</li>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		function openmainpage() {
+			window.location.href = "./index.html";
+		}
+
+		function openpeoplepage() {
+			window.location.href = "./people.html";
+		}
+
+		function openprojectpage() {
+			window.location.href = "./project.html";
+		}
+	</script>
+	<noscript>浏览器不支持JavaScript</noscript>
+</html>

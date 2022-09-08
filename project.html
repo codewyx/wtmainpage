@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./css/mdui.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/mdui.min.js"></script>
+		<title></title>
+	</head>
+	<body class="mdui-appbar-with-toolbar mdui-theme-primary-yellow mdui-drawer-body-left">
+		<div class="mdui-appbar-fixed mdui-toolbar mdui-color-theme">
+			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons" mdui-drawer="{target: '#drawer', swipe: true}">menu</i>
+			</a>
+			<span class="mdui-typo-title">梧桐落叶 Wtdown</span>
+			<div class="mdui-toolbar-spacer"></div>
+			<!--			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons">more_vert</i>
+			</a>-->
+		</div>
+		<div class="mdui-drawer" id="drawer">
+			<ul class="mdui-list">
+				<li class="mdui-subheader">主板块</li>
+				<li class="mdui-list-item mdui-ripple   " onClick="openmainpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+					<div class="mdui-list-item-content">首页</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple " onClick="openpeoplepage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">people</i>
+					<div class="mdui-list-item-content">团队</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple mdui-list-item-active" onClick="openprojectpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">subject</i>
+					<div class="mdui-list-item-content">项目</div>
+				</li>
+			</ul>
+		</div>
+		<div class="mdui-container showpeoplebox">
+							&nbsp;&nbsp;&nbsp;				&nbsp;&nbsp;&nbsp;
+			<div class="mdui-card">
+			  <div class="mdui-card-header">
+			    <img class="mdui-card-header-avatar" src="./img/1GaDF.png"/>
+			    <div class="mdui-card-header-title">梧桐起始页V4</div>
+			  </div>
+			  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">正常通道起始页</div>
+			    <div class="mdui-card-primary-subtitle">简洁、清晰、安全</div></div>
+			  <div class="mdui-card-actions">
+			    <a href="https://wutongpage.mycsdn.cn/"><button class="mdui-btn mdui-ripple">进入</button>
+		</a>	  </div>
+			
+			</div>
+
+		&nbsp;&nbsp;&nbsp;
+					<div class="mdui-card">
+						  <div class="mdui-card-header">
+						    <img class="mdui-card-header-avatar" src="./img/1GaDF.png"/>
+						    <div class="mdui-card-header-title">梧桐起始页V5</div>
+						  </div>
+						  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">BETA通道起始页</div>
+						    <div class="mdui-card-primary-subtitle">简洁、清晰、安全</div></div>
+						  <div class="mdui-card-actions">
+						    <a href="https://betawt.netlify.app/"><button class="mdui-btn mdui-ripple">进入</button>
+					</a>	  </div>
+						
+						</div>
+					
+									&nbsp;&nbsp;&nbsp;
+									<div class="mdui-card">
+										  <div class="mdui-card-header">
+										    <img class="mdui-card-header-avatar" src="./img/1GaDF.png"/>
+										    <div class="mdui-card-header-title">梧桐下载站</div>
+										  </div>
+										  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">最好的下载站</div>
+										    <div class="mdui-card-primary-subtitle">最好的下载站</div></div>
+										  <div class="mdui-card-actions">
+										    <a href="https://wtdown.top"><button class="mdui-btn mdui-ripple">进入</button>
+									</a>	  </div>
+										
+										</div>
+									
+													&nbsp;&nbsp;&nbsp;
+		</div>
+	</body>
+	<script>
+		function openmainpage() {
+			window.location.href = "./index.html";
+		}
+
+		function openpeoplepage() {
+			window.location.href = "./people.html";
+		}
+
+		function openprojectpage() {
+			window.location.href = "./project.html";
+		}
+	</script>
+	<noscript>浏览器不支持JavaScript</noscript>
+</html>

@@ -1,0 +1,79 @@
+.showimgbox {
+	display: flex;
+	height: 200px;
+	text-align: center;
+	width: 200px;
+	position: absolute;
+	top: 35%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	color: #2d3561;
+	background: rgba(234, 234, 234, 0.5);
+	font-size: 15px;
+	border-radius: 9999px;
+	backdrop-filter: blur(20px);
+	transition: background 0.5s, backdrop-filter 0.5s;
+	-webkit-transition: background 0.5s, backdrop-filter 0.5s;
+	/* Safari */
+}
+
+.showimgbox:hover {
+	color: white;
+	border-color: #69779b;
+	background: #f6ff3b;
+}
+
+.showbox {
+	display: flex;
+	height:100px;
+	text-align: center;
+	width: 500px;
+	position: absolute;
+	top: 55%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	color: #2d3561;
+	font-size: 28px;
+	transition: background 0.5s, backdrop-filter 0.5s;
+	-webkit-transition: background 0.5s, backdrop-filter 0.5s;
+	/* Safari */
+}
+
+.showbox:hover {
+	color:  #69779b;
+	border-color: #69779b;
+}
+.showgoodbox {
+	display: flex;
+	height:10px;
+	text-align: center;
+	width: 70%;
+	position: absolute;
+	top: 83%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+
+}
+.showpeoplebox {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	color: #2d3561;
+	transition: background 0.5s, backdrop-filter 0.5s;
+	-webkit-transition: background 0.5s, backdrop-filter 0.5s;
+	/* Safari */
+}

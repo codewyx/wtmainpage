@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="./css/mdui.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/mdui.min.js"></script>
+		<title></title>
+	</head>
+	<body class="mdui-appbar-with-toolbar mdui-theme-primary-yellow mdui-drawer-body-left">
+		<div class="mdui-appbar-fixed mdui-toolbar mdui-color-theme">
+			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons" mdui-drawer="{target: '#drawer', swipe: true}">menu</i>
+			</a>
+			<span class="mdui-typo-title">梧桐落叶 Wtdown</span>
+			<div class="mdui-toolbar-spacer"></div>
+			<!--			<a href="javascript:;" class="mdui-btn mdui-btn-icon">
+				<i class="mdui-icon material-icons">more_vert</i>
+			</a>-->
+		</div>
+		<div class="mdui-drawer" id="drawer">
+			<ul class="mdui-list">
+				<li class="mdui-subheader">主板块</li>
+				<li class="mdui-list-item mdui-ripple   " onClick="openmainpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+					<div class="mdui-list-item-content">首页</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple mdui-list-item-active" onClick="openpeoplepage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">people</i>
+					<div class="mdui-list-item-content">团队</div>
+				</li>
+				<li class="mdui-list-item mdui-ripple " onClick="openprojectpage()">
+					<i class="mdui-list-item-icon mdui-icon material-icons">subject</i>
+					<div class="mdui-list-item-content">项目</div>
+				</li>
+			</ul>
+		</div>
+		<div class="mdui-container showpeoplebox">
+							&nbsp;&nbsp;&nbsp;				&nbsp;&nbsp;&nbsp;
+			<div class="mdui-card">
+			  <div class="mdui-card-header">
+			    <img class="mdui-card-header-avatar" src="./img/83dc1ee006f07a45ae6194dddf3a8fca70dd5408.jpg"/>
+			    <div class="mdui-card-header-title">会用win11的mac</div>
+			  </div>
+			  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">梧桐落叶发起人</div>
+			    <div class="mdui-card-primary-subtitle">负责日常维护以及开发视频</div></div>
+			  <div class="mdui-card-actions">
+			    <a href="https://space.bilibili.com/2024188353/"><button class="mdui-btn mdui-ripple">B站</button>
+		</a>	  </div>
+			
+			</div>
+			&nbsp;&nbsp;&nbsp;
+		<div class="mdui-card">
+			  <div class="mdui-card-header">
+			    <img class="mdui-card-header-avatar" src="./img/8f1b4683e9ae8d7388f9b2778e3c8def0022d269.jpg">
+			    <div class="mdui-card-header-title">SUDA_CODE</div>
+			  </div>
+			  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">Rapid第一位成员</div>
+			    <div class="mdui-card-primary-subtitle">负责CSS设计和团队管理。</div></div>
+			  <div class="mdui-card-actions">
+			    <a href="https://space.bilibili.com/695791514/"><button class="mdui-btn mdui-ripple">B站</button>
+		</a>	  </div>
+			
+			</div>
+						&nbsp;&nbsp;&nbsp;<br>
+				<div class="mdui-card">
+					  <div class="mdui-card-header">
+					    <img class="mdui-card-header-avatar" src="./img/85fc8c14225892545eaf4e55ca4efcd5ee603c67.jpg">
+					    <div class="mdui-card-header-title">Codewyx</div>
+					  </div>
+					  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">Rapid团队创始人</div>
+					    <div class="mdui-card-primary-subtitle">负责开发大部分主要的功能。</div></div>
+					  <div class="mdui-card-actions">
+					    <a href="https://space.bilibili.com/626846556/"><button class="mdui-btn mdui-ripple">B站</button>
+				</a>	  </div>
+					
+					</div>
+				&nbsp;&nbsp;&nbsp;
+				<div class="mdui-card">
+					  <div class="mdui-card-header">
+					    <img class="mdui-card-header-avatar" src="./img/57ed8866f5e1a7d239432c510565a76bf79d21c8.jpg">
+					    <div class="mdui-card-header-title">爱分享的小黄鸭</div>
+					  </div>
+					  <div class="mdui-card-content">			    <div class="mdui-card-primary-title">开发团队的“实习生”</div>
+					    <div class="mdui-card-primary-subtitle">负责协助开发和维护主页。</div></div>
+					  <div class="mdui-card-actions">
+					    <a href="https://space.bilibili.com/1016265230/"><button class="mdui-btn mdui-ripple">B站</button>
+				</a>	  </div>
+					
+					</div>
+		</div>
+	</body>
+	<script>
+		function openmainpage() {
+			window.location.href = "./index.html";
+		}
+
+		function openpeoplepage() {
+			window.location.href = "./people.html";
+		}
+
+		function openprojectpage() {
+			window.location.href = "./project.html";
+		}
+	</script>
+	<noscript>浏览器不支持JavaScript</noscript>
+</html>
